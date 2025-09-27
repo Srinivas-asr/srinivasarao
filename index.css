@@ -1,0 +1,98 @@
+.container{
+    width:100vw;
+    height:100vh;
+    background-color: azure;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width:200px;
+    height:300px;
+    border:1px solid red;
+    border-radius: 10px;
+    padding:2px;
+    background: linear-gradient(to bottom, rgb(114, 114, 247), white);
+    background-color: rgb(114, 114, 247);
+    box-shadow: 5px 5px 5px grey;
+    
+
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border:1px solid rgb(114, 114, 247);
+    padding:2PX;
+    border-radius: 100px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 45px;
+    overflow-wrap: normal;
+
+}
+
+img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 100%;
+    
+
+}
+
+button{
+    width: 80px;
+    height:30px;
+    background-color: rgb(114, 114, 247);
+    border:0px solid;
+    border-radius: 30px;
+    display: inline;
+
+}
+h4{
+    margin-left: 35%;
+    /* align-items: center; */
+    
+}
+
+p{
+    margin-left: 25%;
+    margin-top: -20px;
+    /* align-items: center; */
+
+    /* background-position: center; */
+}
+
+.bt1{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline;
+}
+.bt2{
+    margin-left:20px;
+}
+
+.fa-solid.fa-star.i{
+    color: rgb(114, 114, 247);
+    
+    margin-left: 4px;
+}
+.fa-brands.fa-facebook{
+    display:inline;
+    margin-top: 200px;
+    margin-left: 180px;
+}
+.fa-brands.fa-twitter{
+    display:inline;
+    margin-top: 200px;
+    margin-left: 180px;
+} 
+.fa-brands.fa-github{
+    display:inline;
+    margin-top: 200px;
+    margin-left: 180px;
+}
