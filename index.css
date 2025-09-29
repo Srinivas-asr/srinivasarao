@@ -19,22 +19,29 @@
     background: linear-gradient(to bottom, rgb(114, 114, 247), white);
     background-color: rgb(114, 114, 247);
     box-shadow: 5px 5px 5px grey;
-    
 
 }
 
 .circle{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border:1px solid rgb(114, 114, 247);
     padding:2PX;
     border-radius: 100px;
     background-color: white;
     align-items: center;
-    margin-top: 1px;
-    margin-left: 45px;
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;   
+}
+
+.social{
     display: flex;
-    
+    flex-direction: column;
+    align-items:end;
+    gap: 20px;
+    margin-top: -110px;
+    margin-right: 4px;
 }
 
 
@@ -46,9 +53,7 @@ img{
     
 
 }
-.fa-brands.fa-facebook{
-    display: inline-block;
-}
+
 
 button{
     width: 80px;
@@ -62,6 +67,7 @@ button{
 h4{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
     /* align-items: top; */
 }
 
@@ -71,50 +77,30 @@ p{
     
 }
 
-.bt1{
-    margin-left: 10px;
-    margin-top: 10px;
-    display: inline;
-}
-.bt2{
-    margin-left:20px;
-}
-
-
 .stars{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap:4px;
     
 }
 
-.fa-solid.fa-star.i{
-    color: rgb(114, 114, 247);
-    margin-left: 4px;
+.button{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 15px;
     
+
 }
 
-.fa-solid.fa-star.j{
-    color: rgb(114, 114, 247);
-    margin-left: 4px;
+.bt1{
+    color:white;
 }
-.fa-solid.fa-star.k{
-    color: rgb(114, 114, 247);
-    margin-left: 4px;
-}
-.fa-brands.fa-facebook{
-    display:inline;
-    margin-top: 200px;
-    margin-left: 180px;
-}
-.fa-brands.fa-twitter{
-    display:inline;
-    margin-top: 200px;
-    margin-left: 180px;
-} 
-.fa-brands.fa-github{
-    display:inline;
-    margin-top: 200px;
-    margin-left: 180px;
+.bt2{
+    color:white;
 }
 
